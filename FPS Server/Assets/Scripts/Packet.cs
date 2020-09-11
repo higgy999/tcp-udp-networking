@@ -14,15 +14,6 @@ public enum ServerPackets
     playerDisconnected,
     playerHealth,
     playerRespawned,
-    createItemSpawner,
-    itemSpawned,
-    itemPickedUp,
-    spawnProjectile,
-    projectilePosition,
-    projectileExploded,
-    spawnEnemy,
-    enemyPosition,
-    enemyHealth
 }
 
 /// <summary>Sent from client to server.</summary>
