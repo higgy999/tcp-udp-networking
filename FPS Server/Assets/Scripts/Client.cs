@@ -10,13 +10,13 @@ public class Client
     public int id;
     public Player player;
     public DualNet.TCP tcp;
-    public DualNet.TCP udp;
+    public DualNet.UDP udp;
 
     public Client(int _clientId)
     {
         id = _clientId;
         tcp = new DualNet.TCP(id);
-        udp = new DualNet.TCP(id);
+        udp = new DualNet.UDP(id);
     }
 
     /// <summary>Sends the client into the game and informs other clients of the new player.</summary>
